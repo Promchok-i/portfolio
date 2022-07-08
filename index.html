@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--======================= UNICONS ===============================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--======================== Swiper CSS ================================-->
+    <link rel="stylesheet" href="">
+
+    <!--============================ CSS ===================================-->
+    <link rel="stylesheet" href="assets/CSS/styles.css">
+
+
+    <title>Responsive Portfolio Website</title>
+</head>
+<body>
+    <!--================================ HEADER ===============================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Promchok</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link nav__icon">
+                            <i class="uil uil-estate"></i> Home
+                        </a>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link nav__icon">
+                            <i class="uil uil-user"></i> About
+                        </a>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link nav__icon">
+                            <i class="uil uil-file-alt"></i> Skills
+                        </a>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link nav__icon">
+                            <i class="uil uil-briefcase-alt"></i> Services
+                        </a>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link nav__icon">
+                            <i class="uil uil-scenery"></i> Portfolio
+                        </a>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link nav__icon">
+                            <i class="uil uil-message"></i> Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--============================== MAIN ======================================-->
+    <main class="main">
+        <!-- ===================== HOME ======================= -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank" class="home__social-icon">
+                            <i class="uil uil-facebook"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                                <image class="home__blob-img" x="40" y="180" href="assets/img/bob.jpg"/>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Promchok</h1>
+                        <h3 class="home__subtitile">Data Engineer</h3>
+                        <p class="home__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel voluptate consequuntur, nostrum adipisci eos cum natus earum consectetur magnam delectus!</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== About ======================= -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/test_about.png" alt="" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam maiores, impedit odit excepturi totam magnam! Doloremque totam officiis quis temporibus, neque beatae maiores error reprehenderit sequi ipsam. Atque, delectus iusto.</p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">08+</span>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">20+</span>
+                            <span class="about__info-name">Completed <br> project</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">05+</span>
+                            <span class="about__info-name">Companies <br> worked</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/PDF/test_resume.pdf" class="button button--flex">
+                            Download Resume<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SKILLS ======================= -->
+
+
+
+        <!-- ===================== Qualification ======================= -->
+
+
+
+        <!-- ===================== Services ======================= -->
+
+
+
+        <!-- ===================== Portfolio ======================= -->
+    </main>
+
+    <!--====================================== FOOTER ==============================-->
+
+
+    <!--=======================================SCROLL TOP ==============================-->
+
+
+    <!--=================================== SWIPER JS ==================================== -->
+    <script src=""></script>
+
+    <!--======================================= MAIN JS==================================-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
